@@ -1,0 +1,8 @@
+Q1 (25th percentile): 287.0
+Q3 (75th percentile): 783.4
+IQR: 496.5
+Lower fence (Q1 - 1.5*IQR): -457.8
+Upper fence (Q3 + 1.5*IQR): 1528.2
+
+Outlier sectors (outside the fences):
+  Miscellaneous Goods and Services: 2280.2 (HIGH outlier)
