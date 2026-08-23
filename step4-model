@@ -1,0 +1,14 @@
+# Step 4 — Model (M)
+Two independent analytical checks on Step 3's rebased sector data.
+## Files
+- `model.py` — the script; run with `python3 model.py`
+- `cluster_results.csv` — K-Means clustering (k=3) result per sector, compared against the manual tiers from Step 3
+- `iqr_outlier_report.txt` — the IQR/boxplot outlier calculation and verdict
+- `chart4_clusters.png` — every sector's trajectory, colored by the cluster the model assigned (not a manual label)
+- `chart5_boxplot_outliers.png` — boxplot of Dec-2023 index values across all 16 sectors
+## Result 1: Clustering
+K-Means, given no hints about which sectors are "slow" or "fast," independently grouped the 16 sectors with **94% agreement** against the manual Slow/Moderate/Rapid tiers from Step 3. Jewelry lands in the "Slow" cluster together with 7 other sectors (Education, Health, Clothing and Footwear, Hotels, Recreation and Culture, Electronic & Electric Devices, Furniture).
+## Result 2: IQR outlier check — reported honestly
+Using the standard 1.5×IQR fence rule, **Jewelry is not flagged as a formal statistical outlier** — with only 16 data points, the fences are wide, and Jewelry sits just inside the lower whisker rather than below it. The method instead flags **"Miscellaneous Goods and Services" (2,280) as a HIGH-side outlier**.
+
+**Why we're keeping this result rather than discarding it:** it sharpens our claim rather than weakening it. Instead of resting the whole story on one possibly-fragile outlier, we now have an independently-confirmed cluster of **8 structurally slow-adopting sectors** (nearly half the categories tracked), with Jewelry anchoring the bottom of that group. That's a broader, more defensible policy claim.
