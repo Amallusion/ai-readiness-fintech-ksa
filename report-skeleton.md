@@ -78,14 +78,5 @@ misused or misread — e.g. could flagging "Jewelry is cash-heavy" be
 misused to unfairly target a whole sector or specific businesses without
 due process? What guardrail in the Policy node prevents that?]
 
----
 
-## Not part of the template, but keep for your own reference:
-
-**Early findings, confirmed 3 independent ways:**
-- Jewelry: lowest 5-yr growth (1.35x vs up to 21.8x for others)
-- Jewelry: lowest correlation with national e-commerce trend (0.51 vs 0.9+ for most)
-- Jewelry: lowest rebased index at Dec 2023 (144.6 vs up to 2,280 for others)
-
-**Charts ready to embed:** `visuals/chart1_all_sectors_indexed.png`,
-`chart2_growth_ranking.png`, `chart3_ecommerce_covid_spike.png`
+ike.png`
