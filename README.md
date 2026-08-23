@@ -9,10 +9,10 @@ Fintech track. Full pipeline per ITU-T Y.3172: **SRC → C → PP → M → P �
 | 1 | SRC (Source) | ✅ Done | `step1-source-selection.md` |
 | 2 | C (Collector) | ✅ Done | `step2-collector/` |
 | 3 | PP (Pre-processor) | ✅ Done | `step3-preprocessor/` + `visuals/` |
-| 4 | M (Model) | ⬜ In progress | — |
-| 5 | P (Policy) | ⬜ Not started | — |
-| 6 | D (Distributor) | ⬜ Not started | — |
-| 7 | SINK | ⬜ Not started | — |
+| 4 | M (Model) | ✅ Done | — |
+| 5 | P (Policy) | ✅ Done | — |
+| 6 | D (Distributor) | ✅ Done | — |
+| 7 | SINK | ✅ Done | — |
 
 ## What this project is
 
