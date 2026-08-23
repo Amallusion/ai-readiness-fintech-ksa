@@ -41,12 +41,12 @@ considerations around large cash transactions in high-value goods.
 
 Each subfolder has its own README explaining exactly what's inside and why.
 
-## Team
+## Team Voxel
 
-- [Name] — [role]
-- [Name] — [role]
-- [Name] — [role]
-- [Name] — [role]
+- Mohamd Bremo
+- Thamer Al Kahtani
+- Ayman Mohammed
+- Abdulelah Hejazi
 
 ## Submission checklist (ITU AI Readiness Hackathon KSA)
 
