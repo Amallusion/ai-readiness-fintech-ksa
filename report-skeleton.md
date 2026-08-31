@@ -78,5 +78,17 @@ misused or misread — e.g. could flagging "Jewelry is cash-heavy" be
 misused to unfairly target a whole sector or specific businesses without
 due process? What guardrail in the Policy node prevents that?]
 
+---
 
-ike.png`
+## Not part of the template, but keep for your own reference:
+
+**Findings (revised after external ML review — see step4b-rigor-repair/REVISED-FINDINGS.md):**
+- Ticket-size mechanism: higher average transaction value significantly
+  predicts slower digital adoption (R²=0.31, p=0.04, n=14 clean sectors)
+- Jewelry (highest ticket size tracked) sits exactly where this predicts
+- Jewelry's closest true trajectory-shape match: only Clothing and Footwear
+- Jewelry is NOT uniquely worst — statistically tied with Education (24.9%
+  vs 25.0% in bootstrap resampling) for "most often lowest-ranked"
+
+**Charts ready to embed:** `visuals/chart1_all_sectors_indexed.png`,
+`chart2_growth_ranking.png`, `chart3_ecommerce_covid_spike.png`
