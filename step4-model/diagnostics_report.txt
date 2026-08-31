@@ -1,0 +1,69 @@
+A. TICKET SIZE — fit and fragility
+====================================================================
+  OLS,  all 16 : R2=0.070  p=0.3215
+  OLS,      14 : R2=0.307  p=0.0399  slope=-295.7
+  Spearman, 16 : rho=-0.462  p=0.0718
+  Spearman, 14 : rho=-0.490  p=0.0752
+  The rank relationship barely moves between 16 and 14 sectors, so
+  the two-sector exclusion is not what produces the relationship —
+  it removes two high-growth points that inflate OLS residual
+  variance. Neither sample reaches p<0.05 on the rank test.
+
+  Leave-one-out: 8 of 14 single removals push p above 0.05
+    drop Restaurants & Café                   R2=0.209 p=0.1163  <-- significance lost
+    drop Education                            R2=0.232 p=0.0957  <-- significance lost
+    drop Jewelry                              R2=0.234 p=0.0941  <-- significance lost
+    drop Beverage and Food                    R2=0.241 p=0.0883  <-- significance lost
+    drop Public Utilities                     R2=0.279 p=0.0634  <-- significance lost
+    drop Hotels                               R2=0.297 p=0.0542  <-- significance lost
+    drop Electronic & Electric Devices        R2=0.300 p=0.0529  <-- significance lost
+    drop Furniture                            R2=0.305 p=0.0502  <-- significance lost
+    drop Telecommunication                    R2=0.312 p=0.0472
+    drop Recreation and Culture               R2=0.338 p=0.0372
+    drop Transportation                       R2=0.355 p=0.0315
+    drop Clothing and Footwear                R2=0.379 p=0.0252
+    drop Construction & Building Materials    R2=0.386 p=0.0233
+    drop Health                               R2=0.436 p=0.0141
+  p=0.04 at n=14 is a knife-edge. Report as suggestive, not established.
+
+  Residuals (most negative first):
+                           Sector  GrowthIndexDec2023  Predicted  Residual
+                           Health               279.5      613.1    -333.6
+            Clothing and Footwear               281.3      560.6    -279.3
+                          Jewelry               144.6      329.7    -185.2
+           Recreation and Culture               365.6      546.2    -180.7
+                           Hotels               288.8      434.3    -145.4
+    Electronic & Electric Devices               380.5      437.8     -57.3
+                        Education               224.2      230.0      -5.8
+                        Furniture               446.7      428.9      17.7
+               Restaurants & Café               811.7      723.4      88.3
+                Beverage and Food               774.0      667.3     106.7
+                Telecommunication               722.0      520.5     201.4
+                   Transportation               612.2      403.7     208.6
+Construction & Building Materials               653.0      387.2     265.8
+                 Public Utilities               887.0      588.4     298.6
+  Jewelry residual rank: 3 of 14 (most negative = 1).
+  Jewelry does NOT sit on the fitted line — it is well below it.
+  Education is the sector that sits on the line (residual ~ -6).
+
+B. CORRELATION — differencing collapses it for every sector
+====================================================================
+  mean |level correlation|       = 0.901
+  mean |differenced correlation| = 0.170
+  range of differenced r         = [-0.238, 0.328]
+  |r| for p<0.05 at n=59          = 0.256  -> 4 of 16 pass
+  |r| after Bonferroni (16 tests) = 0.378  -> 0 of 16 pass
+  The finding is not that Jewelry moved to mid-range. It is that the
+  level correlations were measuring shared upward trend for ALL sectors
+  and carry no sector-specific signal. This retires the correlation leg
+  of the original 'three independent confirmations' claim entirely.
+
+C. SHAPE CLUSTERING — the partition is degenerate
+====================================================================
+  cluster sizes at k=3: [13, 2, 1]
+  Jewelry's cluster    : ['Clothing and Footwear', 'Jewelry']
+  One large cluster plus a pair plus a singleton is an outlier detector,
+  not three adoption tiers. Describe these as the sectors whose
+  trajectory shape is least typical, and always quote the sizes.
+  Silhouette was never run in shape space — only on levels. Run it.
+
