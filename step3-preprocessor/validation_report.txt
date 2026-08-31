@@ -1,8 +1,0 @@
-Rows in collected_wide.csv (months): 60
-Date range: 2019-01 to 2023-12
-Missing values in numeric columns: 0
-Exact-zero values in numeric columns: 0
-Sector-redefinition footnote check (Hotels/Electronics/Furniture/Construction/Jewelry all have real, non-zero values from month 1): PASS
-
-Sectors in matrix: 16
-Months in matrix: 60
