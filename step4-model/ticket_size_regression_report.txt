@@ -1,0 +1,8 @@
+OLS regression: GrowthIndex ~ log10(AvgTicketSize2019)
+  slope       = -323.61
+  intercept   = 1487.51
+  R-squared   = 0.070
+  p-value     = 0.3215
+  95% bootstrap CI on slope (n=16, resampled sectors, 2000 draws): [-682.66, 158.34]
+
+Interpretation: a doubling in average ticket size is associated with a change of -97.4 points in the Dec-2023 growth index (per doubling of ticket size).

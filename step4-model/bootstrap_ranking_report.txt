@@ -1,0 +1,35 @@
+Bootstrap ranking stability, CORRECTED (1000 resamples of month-over-month
+growth rates, compounded from a fixed Jan-2019=100 start):
+How often each sector lands as the SINGLE LOWEST-ranked sector:
+  Education: 25.0%
+  Jewelry: 24.9%
+  Clothing and Footwear: 17.7%
+  Hotels: 14.2%
+  Recreation and Culture: 5.1%
+  Furniture: 3.7%
+  Restaurants & Café: 2.4%
+  Electronic & Electric Devices: 2.3%
+  Transportation: 1.3%
+  Health: 1.1%
+  Telecommunication: 0.8%
+  Public Utilities: 0.6%
+  Others: 0.5%
+  Construction & Building Materials: 0.4%
+
+95% bootstrap interval on final (Dec-2023-equivalent) index value:
+  Transportation: [51, 7291]
+  Health: [62, 954]
+  Restaurants & Café: [32, 19732]
+  Hotels: [3, 20108]
+  Beverage and Food: [285, 2337]
+  Clothing and Footwear: [1, 57039]
+  Recreation and Culture: [20, 7841]
+  Miscellaneous Goods and Services: [345, 16118]
+  Electronic & Electric Devices: [65, 2460]
+  Furniture: [24, 9687]
+  Construction & Building Materials: [108, 4588]
+  Jewelry: [2, 19110]
+  Telecommunication: [101, 6043]
+  Education: [0, 168187]
+  Public Utilities: [94, 7418]
+  Others: [138, 7620]
